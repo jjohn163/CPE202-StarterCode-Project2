@@ -48,10 +48,7 @@ Your code will be contained in these files:
 
 While RPN will look strange until you are familiar with it, here you can
 begin to see some of its advantages for programmers. One such advantage
-of RPN is that it removes the need for parentheses. Infix notation
-supports operator precedence (∗ and ∕ have higher precedence than + and
-−) and thus needs parentheses to override this precedence. This makes
-parsing such expressions much more difficult. RPN has no notion of
+of RPN is that it removes the need for parentheses. RPN has no notion of
 precedence, the operators are processed in the order they are
 encountered. This makes evaluating RPN expressions fairly
 straightforward and is a perfect application for a stack data structure,
