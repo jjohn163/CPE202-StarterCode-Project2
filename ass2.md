@@ -25,8 +25,8 @@ Notes:
   expression that your programs will be required to handle.
 * In addition to the operators + - * / shown in class, your programs
   should handle the exponentiation operator.  In this assignment, the
-  exponential operator will be denoted by ^.  For example, 2^3=8 and
-  3^2=9.  (https://en.wikipedia.org/wiki/Exponentiation)
+  exponential operator will be denoted by **.  For example, 2**3=8 and
+  3**2=9.  (https://en.wikipedia.org/wiki/Exponentiation)
 * Every class and function must come with a brief purpose statement in
   its docstring. In separate comments you should explain the arguments
   and what is returned by the function or method.
@@ -64,7 +64,7 @@ just follow these steps:
   * Push the result back onto the stack
 * Return the last value remaining on the stack
 
-For example, given the expression 5 1 2 + 4 ^ + 3 - :
+For example, given the expression 5 1 2 + 4 ** + 3 - :
 
 ```
 Input Type      Stack   Notes
