@@ -14,14 +14,6 @@ def postfix_eval(input_str):
     DO NOT USE PYTHON'S EVAL FUNCTION!!!'''
     pass
 
-def infix_to_postfix(input_str):
-    '''Converts an infix expression to an equivalent postfix expression
-
-    Input argument:  a string containing an infix expression where tokens are 
-    space separated.  Tokens are either operators + - * / ** >> << parentheses ( ) or numbers
-    Returns a String containing a postfix expression '''
-    pass
-
 
 def prefix_to_postfix(input_str):
     '''Converts a prefix expression to an equivalent postfix expression
