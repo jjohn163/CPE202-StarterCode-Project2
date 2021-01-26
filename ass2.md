@@ -140,9 +140,6 @@ end    Pop entire stack to output                    Result: ‘3 2 1 / - 4 5 / 
   that input_str is a well formatted, correct prefix expression
   containing only numbers, the specified operators, and that the tokens
   are space separated.  You may use the Python functions split and join.
-* You can assume that the user will use postfix_valid(input_str) prior
-  to calling the postfix evaluation function, so postfix_eval(input_str)
-  will always be called with a valid postfix expression
 * postfix_eval(input_str) should raise a ValueError if a divisor is 0.
 
 ## Submission
