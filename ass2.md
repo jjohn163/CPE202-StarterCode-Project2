@@ -38,6 +38,7 @@ Notes:
 ## Modules and Functions
 Your code will be contained in these files:
 * stack_array.py
+* stack_tests.py
 * exp_eval.py
 * exp_eval_testcases.py
 
