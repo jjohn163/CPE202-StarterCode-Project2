@@ -136,7 +136,7 @@ end    Pop entire stack to output                    Result: ‘3 2 1 / - 4 5 / 
   * “Too many operands” if the expression contains too many operands.
   * Note: to raise an exception with a message: raise
     PostfixFormatException(“Here is a message”)
-* You may assume that when prefix_to_postfix(inpu```t_str) is called
+* You may assume that when prefix_to_postfix(input_str) is called
   that input_str is a well formatted, correct prefix expression
   containing only numbers, the specified operators, and that the tokens
   are space separated.  You may use the Python functions split and join.
