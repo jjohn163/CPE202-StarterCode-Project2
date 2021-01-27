@@ -25,8 +25,8 @@ Notes:
   expression that your programs will be required to handle.
 * In addition to the operators + - * / shown in class, your programs
   should handle the exponentiation operator.  In this assignment, the
-  exponential operator will be denoted by **.  For example, 2**3=8 and
-  3**2=9.  (https://en.wikipedia.org/wiki/Exponentiation)
+  exponential operator will be denoted by \**.  For example, 2\**3=8 and
+  3\**2=9.  (https://en.wikipedia.org/wiki/Exponentiation)
 * Every class and function must come with a brief purpose statement in
   its docstring. In separate comments you should explain the arguments
   and what is returned by the function or method.
@@ -73,7 +73,7 @@ Input Type      Stack   Notes
 2     Value     2 1 5   Push 2 onto stack
 +     Operator  3 5     Pop two operands (1, 2), perform operation (1+2=3), and push result onto stack
 4     Value     4 3 5   Push 4 onto stack
-^     Operator  81 5    Pop two operands (3, 4), perform operation (3^4=81), and push result onto stack
+**    Operator  81 5    Pop two operands (3, 4), perform operation (3**4=81), and push result onto stack
 +     Operator  86      Pop two operands (5, 81), perform operation (5+81=86), and push result onto stack
 3     Value     3 86    Push 3 onto stack
 −     Operator  83      Pop two operands (86, 3), perform operator (86−3=83), and push result onto stack
